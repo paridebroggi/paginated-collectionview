@@ -67,7 +67,7 @@ extension ViewController: UICollectionViewDataSource {
 //MARK: - CUSTOMIZING COLLECTION VIEW FLOW LAYOUT
 extension ViewController: UICollectionViewDelegateFlowLayout {
   
-  func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+  func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
     return self.spaceBetweenCells
   }
   
